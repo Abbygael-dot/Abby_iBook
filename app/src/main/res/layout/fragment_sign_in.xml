@@ -28,7 +28,9 @@
             android:src="@drawable/maskgroup"
             app:layout_constraintStart_toStartOf="@id/signInImage1"
             app:layout_constraintTop_toBottomOf="@id/signInImage1"
+            app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="29.53dp"
+            android:layout_marginEnd="49.02dp"
             android:contentDescription="@string/signinimage"/>
 
         <ImageView
@@ -134,7 +136,9 @@
             android:textAllCaps="false"
             app:layout_constraintTop_toBottomOf="@id/passwordLayout"
             app:layout_constraintStart_toStartOf="@id/signInImage1"
+            app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="30dp"
+            android:layout_marginEnd="49.02dp"
             android:background="@drawable/button_background"/>
 
         <LinearLayout

@@ -16,19 +16,22 @@
             android:layout_height="425dp"
             android:src="@drawable/imagefour"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:scaleType="fitCenter"
             app:layout_constraintStart_toStartOf="parent"
             android:contentDescription="@string/signupimage"/>
 
         <ImageView
             android:id="@+id/signUpImage2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ibook"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginTop="46.47dp"
+            android:layout_width="132dp"
+            android:layout_height="54dp"
             android:layout_marginStart="44dp"
-            android:contentDescription="@string/signupimage"/>
+            android:layout_marginTop="46.47dp"
+            android:contentDescription="@string/signupimage"
+            android:src="@drawable/ibook"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
 
         <LinearLayout
             android:id="@+id/linearlayout1"
