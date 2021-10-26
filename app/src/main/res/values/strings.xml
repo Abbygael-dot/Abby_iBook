@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">abby_iBook</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_started">Get Started</string>
+    <string name="reading_is_a_conversatoion_all_books_talk_but_a_book_listens_as_well">Reading is a conversatoion all books talk but a book listens as well</string>
+    <string name="sign_in">Sign In</string>
+    <string name="we_re_glad_to_have_you_back">We\'re glad to have you back</string>
+    <string name="input_your_password">Input your password</string>
+    <string name="input_your_email">Input your email</string>
+    <string name="new_to_ibook">New to iBook?</string>
+    <string name="set_up_an_account">Set up an account</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email_address">Enter email address</string>
+    <string name="enter_user_name">Enter user name</string>
+    <string name="user_name">User name</string>
+    <string name="enter_last_name">Enter last name</string>
+    <string name="last_name">Last name</string>
+    <string name="enter_first_name">Enter first name</string>
+    <string name="first_name">First name</string>
+    <string name="there_is_lots_in_store_for_you">There is lots in store for you</string>
+    <string name="proceed">Proceed</string>
+    <string name="you_re_all_set_and_ready_to_start_reading_your_favorite_books">You\'re all set and ready to start reading your favorite books</string>
+    <string name="onboardingimage">onBoardingImage</string>
+    <string name="signinimage">signInImage</string>
+    <string name="signupimage">signUpImage</string>
+    <string name="splashimage">splashImage</string>
+</resources>

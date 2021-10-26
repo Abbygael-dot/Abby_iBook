@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.example.abby_ibook.fragments.SplashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreen_to_onBoardingScreen"
+            app:destination="@id/onBoardingScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingScreen"
+        android:name="com.example.abby_ibook.fragments.OnBoardingScreen"
+        android:label="fragment_on_boarding_screen"
+        tools:layout="@layout/fragment_on_boarding_screen" >
+        <action
+            android:id="@+id/action_onBoardingScreen_to_signIn2"
+            app:destination="@id/signIn2" />
+    </fragment>
+    <fragment
+        android:id="@+id/signIn2"
+        android:name="com.example.abby_ibook.fragments.SignIn"
+        android:label="SignIn" >
+        <action
+            android:id="@+id/action_signIn2_to_proceed"
+            app:destination="@id/proceed" />
+        <action
+            android:id="@+id/action_signIn2_to_signUp"
+            app:destination="@id/signUp" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.abby_ibook.fragments.SignUp"
+        android:label="SignUp" >
+        <action
+            android:id="@+id/action_signUp_to_proceed"
+            app:destination="@id/proceed" />
+        <action
+            android:id="@+id/action_signUp_to_signIn2"
+            app:destination="@id/signIn2" />
+    </fragment>
+    <fragment
+        android:id="@+id/proceed"
+        android:name="com.example.abby_ibook.fragments.Proceed"
+        android:label="fragment_proceed"
+        tools:layout="@layout/fragment_proceed" />
+</navigation>
