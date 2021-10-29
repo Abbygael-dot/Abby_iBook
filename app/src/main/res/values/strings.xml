@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">abby_iBook</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="get_started">Get Started</string>
     <string name="reading_is_a_conversatoion_all_books_talk_but_a_book_listens_as_well">Reading is a conversatoion all books talk but a book listens as well</string>
